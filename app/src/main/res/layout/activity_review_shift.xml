@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewShift">
+
+    <TextView
+        android:id="@+id/reviewShiftShiftSummaryOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="21dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftAcitivitySummaryLabel"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftReasonForKmOutput" />
+
+    <TextView
+        android:id="@+id/reviewShiftHoursWorkedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="27dp"
+        android:text="Hours Worked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftEndTimeLabel" />
+
+    <TextView
+        android:id="@+id/reviewShiftKmReasonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="26dp"
+        android:text="Reason For KM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftKmTravelledLabel" />
+
+    <TextView
+        android:id="@+id/reviewShiftEndTimeOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="38dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftEndTimeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftStartTimeOutput" />
+
+    <TextView
+        android:id="@+id/reviewShiftAcitivitySummaryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="21dp"
+        android:text="Summary of Shift"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftKmReasonLabel" />
+
+    <TextView
+        android:id="@+id/reviewShiftKmTravelledLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="23dp"
+        android:text="KM Travelled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftHoursWorkedLabel" />
+
+    <TextView
+        android:id="@+id/reviewShiftEndTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="38dp"
+        android:text="End Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftStartTimeLabel" />
+
+    <TextView
+        android:id="@+id/reviewShiftReasonForKmOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="26dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftKmReasonLabel"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftKmTravelledOUtput" />
+
+    <TextView
+        android:id="@+id/reviewShiftStartTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="165dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reviewShiftHoursWorkedOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="27dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftHoursWorkedLabel"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftEndTimeOutput" />
+
+    <TextView
+        android:id="@+id/reviewShiftStartTimeOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="115dp"
+        android:text="Start Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftStartTimeLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/reviewShiftKmTravelledOUtput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="23dp"
+        android:text="Start Time"
+        app:layout_constraintStart_toEndOf="@+id/reviewShiftKmTravelledLabel"
+        app:layout_constraintTop_toBottomOf="@+id/reviewShiftHoursWorkedOutput" />
+
+    <TextView
+        android:id="@+id/reviewShiftTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="67dp"
+        android:text="Review Shift"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reviewShiftSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginBottom="153dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
