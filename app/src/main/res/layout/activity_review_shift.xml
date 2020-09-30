@@ -144,6 +144,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
         android:layout_marginBottom="153dp"
+        android:onClick="saveButton"
         android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
