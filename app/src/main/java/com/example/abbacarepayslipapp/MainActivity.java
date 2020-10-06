@@ -14,17 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
     }
 
-    public void todayButton(View view){
-
+    public void todayButton(View view) {
         Intent todayIntent = new Intent(this, ShiftDataEntry.class);
         startActivity(todayIntent);
-
     }
 
-    public void thisFortnightButton(View view){
+    public void thisFortnightButton(View view) {
 
         Intent thisFortnightIntent = new Intent(this, CurrentFortnight.class);
         startActivity(thisFortnightIntent);
